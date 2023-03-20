@@ -1,0 +1,11 @@
+<?php
+
+require_once 'rb.php';
+
+$db = [
+    'dsn' => 'mysql:host=localhost;dbname=id20211492_payment;charset=utf8',
+    'user' => 'id20211492_root',
+    'pass' => 'h3xqE#e}VhG72f0A',
+];
+R::setup($db['dsn'], $db['user'], $db['pass']);
+R::freeze(true);
